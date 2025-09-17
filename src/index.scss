@@ -3,6 +3,7 @@ $fa-font-path: "~font-awesome/fonts";
 
 @import "~@edx/brand/paragon/fonts";
 @import "~@edx/brand/paragon/variables";
+
 @import "~@openedx/paragon/scss/core/core";
 @import "~@edx/brand/paragon/overrides";
 @import "~@edx/frontend-component-header/dist/index";
@@ -15,8 +16,12 @@ $fa-font-path: "~font-awesome/fonts";
   word-break: break-all !important;
 }
 
+.site-header-desktop .main-nav .nav-link:hover {
+  background-color: #d32f2f !important;
+}
 // TODO: Update edx-bootstrap theme to incorporate these edits.
-.btn, a.btn {
+.btn,
+a.btn {
   text-decoration: none;
   &:hover {
     text-decoration: none;
@@ -67,7 +72,7 @@ $fa-font-path: "~font-awesome/fonts";
   text-decoration: underline;
 }
 
-.pgn__hyperlink__external-icon{
+.pgn__hyperlink__external-icon {
   margin-left: 4px;
 }
 
@@ -123,7 +128,6 @@ $fa-font-path: "~font-awesome/fonts";
     background-color: $light-300 !important;
   }
 
-
   .line-height-36 {
     line-height: 36px;
   }
@@ -132,7 +136,7 @@ $fa-font-path: "~font-awesome/fonts";
     height: 36px;
   }
 
-  .course-dropdown{
+  .course-dropdown {
     #course-dropdown-btn {
       width: 100%;
       font-size: 14px !important;
@@ -160,13 +164,12 @@ $fa-font-path: "~font-awesome/fonts";
 }
 
 @media screen and (max-width: 425px) {
-   .column-padding{
+  .column-padding {
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  .margin-bottom-32{
+  .margin-bottom-32 {
     margin-bottom: 32px !important;
   }
 }
-
