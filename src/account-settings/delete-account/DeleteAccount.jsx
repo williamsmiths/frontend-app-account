@@ -108,7 +108,8 @@ export class DeleteAccount extends React.Component {
               </p>
               <p>
                 <Button
-                  variant="outline-danger"
+                  variant="outline"
+                  className='custom-outline-btn'
                   onClick={canDelete ? this.props.deleteAccountConfirmation : null}
                   disabled={!canDelete}
                 >

@@ -118,7 +118,7 @@ const EditableField = (props) => {
               <p>
                 <StatefulButton
                   type="submit"
-                  className="mr-2"
+                  className="mr-2 custom-confirm-btn"
                   state={saveState}
                   labels={{
                     default: intl.formatMessage(messages['account.settings.editable.field.action.save']),
@@ -136,7 +136,7 @@ const EditableField = (props) => {
                   disabledStates={[]}
                 />
                 <Button
-                  variant="outline-primary"
+                  variant="tertiary"
                   onClick={handleCancel}
                 >
                   {intl.formatMessage(messages['account.settings.editable.field.action.cancel'])}
@@ -151,7 +151,7 @@ const EditableField = (props) => {
             <div className="d-flex align-items-start">
               <h6 aria-level="3">{label}</h6>
               {isEditable ? (
-                <Button variant="link" onClick={handleEdit} className="ml-3">
+                <Button variant="outline" size='sm' onClick={handleEdit} className="ml-3 custom-confirm-btn">
                   <FontAwesomeIcon className="mr-1" icon={faPencilAlt} />{intl.formatMessage(messages['account.settings.editable.field.action.edit'])}
                 </Button>
               ) : null}
