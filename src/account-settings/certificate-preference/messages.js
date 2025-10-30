@@ -3,32 +3,32 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   'account.settings.field.name.checkbox.certificate.select': {
     id: 'account.settings.field.name.certificate.select',
-    defaultMessage: 'Nếu được chọn, tên này sẽ xuất hiện trên chứng chỉ và hồ sơ công khai của bạn.',
+    defaultMessage: 'If checked, this name will appear on your certificates and public-facing records.',
     description: 'Label for checkbox describing that the selected name will appear on the user‘s certificates.',
   },
   'account.settings.field.name.modal.certificate.title': {
     id: 'account.settings.field.name.modal.certificate.title',
-    defaultMessage: 'Chọn tên ưu tiên cho chứng chỉ và hồ sơ công khai',
+    defaultMessage: 'Choose a preferred name for certificates and public-facing records',
     description: 'Title instructing the user to choose a preferred name.',
   },
   'account.settings.field.name.modal.certificate.select': {
     id: 'account.settings.field.name.modal.certificate.select',
-    defaultMessage: 'Chọn một tên',
+    defaultMessage: 'Select a name',
     description: 'Label instructing the user to select a name.',
   },
   'account.settings.field.name.modal.certificate.option.full': {
     id: 'account.settings.field.name.modal.certificate.option.full',
-    defaultMessage: 'Họ và tên',
+    defaultMessage: 'Full Name',
     description: 'Option representing the user’s full name.',
   },
   'account.settings.field.name.modal.certificate.option.verified': {
     id: 'account.settings.field.name.modal.certificate.option.verified',
-    defaultMessage: 'Tên đã xác minh',
+    defaultMessage: 'Verified Name',
     description: 'Option representing the user’s verified name.',
   },
   'account.settings.field.name.modal.certificate.button.choose': {
     id: 'account.settings.field.name.modal.certificate.button.choose',
-    defaultMessage: 'Chọn tên',
+    defaultMessage: 'Choose name',
     description: 'Button to confirm the user’s name choice.',
   },
 });

@@ -277,3 +277,90 @@ body.indigo-dark-theme .modal button:focus:before {
   border: none !important;
 
 }
+
+.site-header-desktop .main-nav .nav-link:hover {
+    background-color: transparent !important;
+    color: $primary-red !important;
+}
+
+
+
+
+
+
+
+
+
+// Overriding styles for __account.scss in Open edX
+// ------------------------------------------------
+.page__account-settings {
+  .pgn-transition-replace-group {
+    p.h6 {
+      font-weight: 600;
+      font-size: 16px;
+      margin: 5px 0 0 !important;
+    }
+    .form-group {
+      margin: 0;
+
+
+      .d-flex.align-items-start {
+        h6 {
+          padding: 6px 66px 6px 0;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 24px;
+          margin: 0;
+        }
+
+        button {
+          padding: 7px 13px !important;
+          border: 1px solid $primary-red !important;
+          color: #fff;
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          margin: 0 !important;
+          position: absolute;
+          right: 15px;
+          top: 15px;
+          background: $primary-red !important;
+          outline-offset: 3px;
+          svg {
+            display: none;
+          }
+        }
+
+      }
+    }
+
+    form {
+      >p {
+        text-align: end;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0;
+
+        button {
+          padding: 7px 13px !important;
+          border: 1px solid $primary-red !important;
+          color: #fff;
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          margin: 0 0 0 15px !important;
+          background: $primary-red !important;
+          border-radius: 8px;
+
+          &.btn-tertiary {
+            background: #fff !important;
+            border-color: #D1D5DB !important;
+            color: #374151;
+          }
+        }
+      }
+    }
+  }
+}
