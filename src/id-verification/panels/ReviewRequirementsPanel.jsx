@@ -69,7 +69,7 @@ const ReviewRequirementsPanel = (props) => {
           <p className="mb-0">
             <FormattedMessage
               id="id.verification.requirements.card.device.text"
-              defaultMessage="You need a device that has a camera. If you receive a browser prompt for access to your camera, please make sure to click {allow}."
+              defaultMessage="Bạn cần một thiết bị có camera. Nếu bạn nhận được thông báo từ trình duyệt yêu cầu quyền truy cập vào camera của mình, hãy đảm bảo nhấp vào {allow}."
               description="Text explaining that the user needs access to a camera."
               values={{
                 allow: <strong>{props.intl.formatMessage(messages['id.verification.requirements.card.device.allow'])}</strong>,
