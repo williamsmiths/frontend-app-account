@@ -9,7 +9,7 @@ const NotFoundPage = () => (
     <p className="my-0 py-5 text-muted" style={{ maxWidth: '32em' }}>
       <FormattedMessage
         id="error.notfound.message"
-        defaultMessage="The page you're looking for is unavailable or there's an error in the URL. Please check the URL and try again."
+        defaultMessage="Trang bạn đang tìm kiếm không khả dụng hoặc có lỗi trong URL. Vui lòng kiểm tra lại URL và thử lại."
         description="Error message when a page does not exist"
       />
     </p>

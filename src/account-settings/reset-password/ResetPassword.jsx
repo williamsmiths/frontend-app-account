@@ -16,7 +16,7 @@ const ResetPassword = (props) => {
       <h6 aria-level="3">
         <FormattedMessage
           id="account.settings.editable.field.password.reset.label"
-          defaultMessage="Password"
+          defaultMessage="Mật khẩu"
           description="The password label in account settings"
         />
       </h6>

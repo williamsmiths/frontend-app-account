@@ -3,17 +3,17 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   notificationHeading: {
     id: 'notification.preference.heading',
-    defaultMessage: 'Notifications',
+    defaultMessage: 'Thông báo',
     description: 'Notification title',
   },
   notificationAppTitle: {
     id: 'notification.preference.app.title',
     defaultMessage: `{
       key, select,
-      discussion {Discussions}
-      coursework {Course Work}
-      updates {Updates}
-      grading {Grading}
+      discussion {Thảo luận}
+      coursework {Bài tập}
+      updates {Cập nhật}
+      grading {Chấm điểm}
       other {{key}}
     }`,
     description: 'Display text for Notification Types',
@@ -22,13 +22,13 @@ const messages = defineMessages({
     id: 'notification.preference.title',
     defaultMessage: `{
       text, select,
-      core {Activity notifications}
-      newDiscussionPost {New discussion posts}
-      newQuestionPost {New question posts}
-      contentReported {Reported content}
-      courseUpdates {Course updates}
-      oraStaffNotifications {New ORA submission for staff grading}
-      oraGradeAssigned {Essay assignment grade received}
+      core {Thông báo hoạt động}
+      newDiscussionPost {Bài đăng thảo luận mới}
+      newQuestionPost {Bài đăng câu hỏi mới}
+      contentReported {Nội dung bị báo cáo}
+      courseUpdates {Cập nhật khóa học}
+      oraStaffNotifications {Bài nộp ORA mới cho nhân viên chấm điểm}
+      oraGradeAssigned {Đã nhận được điểm bài luận}
       other {{text}}
     }`,
     description: 'Display text for Notification Types',
@@ -48,16 +48,16 @@ const messages = defineMessages({
     id: 'notification.preference.emailCadence',
     defaultMessage: `{
       text, select,
-      Daily {Daily}
-      Weekly {Weekly}
-      Immediately {Immediately}
+      Daily {Hàng ngày}
+      Weekly {Hàng tuần}
+      Immediately {Ngay lập tức}
       other {{text}}
     }`,
     description: 'Display text for Email Cadence',
   },
   typeLabel: {
     id: 'notification.preference.type.label',
-    defaultMessage: 'Type',
+    defaultMessage: 'Loại',
     description: 'Display text for type',
   },
   webLabel: {
@@ -77,47 +77,47 @@ const messages = defineMessages({
   },
   loadMoreCourses: {
     id: 'notification.preference.load.more.courses',
-    defaultMessage: 'Load more courses',
+    defaultMessage: 'Tải thêm khóa học',
     description: 'Load more button to load more courses',
   },
   notificationPreferenceGuideLink: {
     id: 'notification.preference.guide.link',
-    defaultMessage: 'as detailed here',
+    defaultMessage: 'như được trình bày chi tiết ở đây',
     description: 'Link of the notification preference for learner guide',
   },
   notificationPreferenceGuideBody: {
     id: 'notification.preference.guide.body',
-    defaultMessage: 'Notifications for certain activities are enabled by default,',
+    defaultMessage: 'Thông báo cho các hoạt động nhất định được bật theo mặc định,',
     description: 'Body of the notification preferences for learner guide',
   },
   accountNotificationDescription: {
     id: 'account.notification.description',
-    defaultMessage: 'Account-level settings apply to all courses. Notifications for individual courses can be changed within each course and will override account-level settings.',
+    defaultMessage: 'Cài đặt cấp tài khoản áp dụng cho tất cả các khóa học. Thông báo cho các khóa học riêng lẻ có thể được thay đổi trong mỗi khóa học và sẽ ghi đè cài đặt cấp tài khoản.',
     description: 'Account notification description',
   },
   notificationCadenceDescription: {
     id: 'notification.cadence.description',
-    defaultMessage: 'Daily notifications are delivered at {dailyTime}. Weekly notifications are delivered at {weeklyTime}.',
+    defaultMessage: 'Thông báo hàng ngày được gửi vào {dailyTime}. Thông báo hàng tuần được gửi vào {weeklyTime}.',
     description: 'Notification cadence description',
   },
   notificationDefaultInfo: {
     id: 'notification.default.info',
-    defaultMessage: 'Notifications for certain activities are enabled by default, as detailed here',
+    defaultMessage: 'Thông báo cho các hoạt động nhất định được bật theo mặc định, như được trình bày chi tiết ở đây',
     description: 'Default notification info',
   },
   notificationDropdownlabel: {
     id: 'notification.dropdown.label',
-    defaultMessage: 'Select notifications for',
+    defaultMessage: 'Chọn thông báo cho',
     description: 'Dropdown label',
   },
   notificationDropdownApplies: {
     id: 'notification.dropdown.applies',
-    defaultMessage: 'Applies to all courses',
+    defaultMessage: 'Áp dụng cho tất cả các khóa học',
     description: 'Dropdown applies to all courses',
   },
   notificationCourseDropdownApplies: {
     id: 'notification.dropdown.course.applies',
-    defaultMessage: 'Overrides account-wide settings',
+    defaultMessage: 'Ghi đè cài đặt trên toàn tài khoản',
     description: 'Dropdown applies to specific course',
   },
 });

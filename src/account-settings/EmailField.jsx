@@ -79,7 +79,7 @@ const EmailField = (props) => {
       <span className="ml-3 text-muted small">
         <FormattedMessage
           id="account.settings.email.field.confirmation.header"
-          defaultMessage="Pending confirmation"
+          defaultMessage="Đang chờ xác nhận"
           description="The label next to a new pending email address"
         />
       </span>

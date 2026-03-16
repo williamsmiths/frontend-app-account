@@ -17,7 +17,7 @@ const AccessBlocked = ({ error, intl }) => {
     return (
       <FormattedMessage
         id="id.verification.access.blocked.denied"
-        defaultMessage="We cannot verify your identity at this time. If you have yet to activate your account, please check your spam folder for the activation email from {email}."
+        defaultMessage="Chúng tôi không thể xác minh danh tính của bạn vào thời điểm này. Nếu bạn chưa kích hoạt tài khoản, vui lòng kiểm tra thư mục thư rác để tìm email kích hoạt từ {email}."
         description="Text that displays when user is denied from making a request, and to check their email for an activation email."
         values={{
           email: <strong>no-reply@registration.edx.org</strong>,

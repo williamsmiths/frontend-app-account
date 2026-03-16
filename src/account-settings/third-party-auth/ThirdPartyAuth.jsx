@@ -25,7 +25,7 @@ class ThirdPartyAuth extends Component {
         <Hyperlink destination={url} className="btn btn-outline-primary">
           <FormattedMessage
             id="account.settings.sso.link.account"
-            defaultMessage="Sign in with {name}"
+            defaultMessage="Đăng nhập bằng {name}"
             description="An action link to link a connected third party account.m {name} will be Google, Facebook, etc."
             values={{ name }}
           />
@@ -44,7 +44,7 @@ class ThirdPartyAuth extends Component {
           <span className="small font-weight-normal text-muted ml-2">
             <FormattedMessage
               id="account.settings.sso.account.connected"
-              defaultMessage="Linked"
+              defaultMessage="Liên kết"
               description="A badge to show that a third party account is linked"
             />
           </span>
@@ -53,7 +53,7 @@ class ThirdPartyAuth extends Component {
           <Alert className="alert-danger">
             <FormattedMessage
               id="account.settings.sso.account.disconnect.error"
-              defaultMessage="There was a problem disconnecting this account. Contact support if the problem persists."
+              defaultMessage="Đã xảy ra sự cố khi ngắt kết nối tài khoản này. Vui lòng liên hệ với bộ phận hỗ trợ nếu sự cố vẫn tiếp diễn."
               description="A message displayed when an error occurred while disconnecting a third party account"
             />
           </Alert>
@@ -66,7 +66,7 @@ class ThirdPartyAuth extends Component {
             default: (
               <FormattedMessage
                 id="account.settings.sso.unlink.account"
-                defaultMessage="Unlink {name} account"
+                defaultMessage="Ngắt liên kết tài khoản {name}"
                 description="An action link to unlink a connected third party account"
                 values={{ name }}
               />
@@ -99,7 +99,7 @@ class ThirdPartyAuth extends Component {
     return (
       <FormattedMessage
         id="account.settings.sso.no.providers"
-        defaultMessage="No accounts can be linked at this time."
+        defaultMessage="Không có tài khoản nào có thể được liên kết vào lúc này."
         description="Displayed when no third-party accounts are available for the user to link to their account on the platform."
       />
     );

@@ -34,7 +34,7 @@ const ReviewRequirementsPanel = (props) => {
         <Alert className="alert alert-primary" role="alert">
           <FormattedMessage
             id="id.verification.requirements.account.managed.alert"
-            defaultMessage="Your account settings are managed by {managerTitle}. If the name on your photo ID does not match the name on your account, please contact your {profileDataManager} administrator or {support} for help before completing the Photo Verification process."
+            defaultMessage="Cài đặt tài khoản của bạn được quản lý bởi {managerTitle}. Nếu tên trên giấy tờ tùy thân có ảnh của bạn không khớp với tên trên tài khoản, vui lòng liên hệ với quản trị viên {profileDataManager} hoặc {support} để được trợ giúp trước khi hoàn tất quy trình Xác minh ảnh."
             description="Alert message informing the user their account data is managed by a third party."
             values={{
               managerTitle: <strong>{profileDataManager}</strong>,

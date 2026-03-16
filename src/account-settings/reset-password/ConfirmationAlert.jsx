@@ -17,7 +17,7 @@ const ConfirmationAlert = (props) => {
     >
       <FormattedMessage
         id="account.settings.editable.field.password.reset.button.confirmation.support.link"
-        defaultMessage="technical support"
+        defaultMessage="hỗ trợ kỹ thuật"
         description="link text used in message: account.settings.editable.field.password.reset.button.confirmation 'Contact technical support.'"
       />
     </Hyperlink>
@@ -30,7 +30,7 @@ const ConfirmationAlert = (props) => {
     >
       <FormattedMessage
         id="account.settings.editable.field.password.reset.button.confirmation"
-        defaultMessage="We've sent a message to {email}. Click the link in the message to reset your password. Didn't receive the message? Contact {technicalSupportLink}."
+        defaultMessage="Chúng tôi đã gửi tin nhắn đến {email}. Vui lòng nhấp vào liên kết trong tin nhắn để đặt lại mật khẩu. Nếu không nhận được tin nhắn, vui lòng liên hệ {technicalSupportLink}."
         description="The password reset button in account settings"
         values={{
           email,

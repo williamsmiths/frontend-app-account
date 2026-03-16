@@ -12,7 +12,7 @@ const RequestInProgressAlert = () => (
   >
     <FormattedMessage
       id="account.settings.editable.field.password.reset.button.forbidden"
-      defaultMessage="Your previous request is in progress, please try again in few moments."
+      defaultMessage="Yêu cầu trước đó của bạn đang được xử lý, vui lòng thử lại sau vài phút."
       description="A message displayed when a previous password reset request is still in progress."
     />
   </Alert>

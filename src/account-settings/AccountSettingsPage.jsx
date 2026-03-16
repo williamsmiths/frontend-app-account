@@ -255,7 +255,7 @@ class AccountSettingsPage extends React.Component {
         <Alert variant="danger">
           <FormattedMessage
             id="account.settings.message.duplicate.tpa.provider"
-            defaultMessage="The {provider} account you selected is already linked to another {siteName} account."
+            defaultMessage="Tài khoản {provider} mà bạn đã chọn đã được liên kết với một tài khoản {siteName} khác."
             description="alert message informing the user that the third-party account they attempted to link is already linked to another account"
             values={{
               provider: <b>{this.state.duplicateTpaProvider}</b>,
@@ -277,7 +277,7 @@ class AccountSettingsPage extends React.Component {
         <Alert variant="info">
           <FormattedMessage
             id="account.settings.message.managed.settings"
-            defaultMessage="Your profile settings are managed by {managerTitle}. Contact your administrator or {support} for help."
+            defaultMessage="Cài đặt hồ sơ của bạn được quản lý bởi {managerTitle}. Liên hệ với quản trị viên của bạn hoặc {support} để được trợ giúp."
             description="alert message informing the user their account data is managed by a third party"
             values={{
               managerTitle: <b>{this.props.profileDataManager}</b>,
@@ -285,7 +285,7 @@ class AccountSettingsPage extends React.Component {
                 <Hyperlink destination={getConfig().SUPPORT_URL} target="_blank">
                   <FormattedMessage
                     id="account.settings.message.managed.settings.support"
-                    defaultMessage="support"
+                    defaultMessage="hỗ trợ"
                     description="website support"
                   />
                 </Hyperlink>

@@ -74,7 +74,7 @@ describe('EditableSelectField', () => {
       error: '',
       confirmationMessageDefinition: {
         id: 'confirmationMessageId',
-        defaultMessage: 'Default Confirmation Message',
+        defaultMessage: 'Thông báo xác nhận mặc định',
         description: 'Description of the confirmation message',
       },
       confirmationValue: 'Confirmation Value',

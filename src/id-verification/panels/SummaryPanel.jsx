@@ -44,7 +44,7 @@ const SummaryPanel = (props) => {
       <p id="profile-manager-warning">
         <FormattedMessage
           id="id.verification.account.name.summary.alert"
-          defaultMessage="Your account settings are managed by {managerTitle}. If the name on your photo ID does not match the name on your account, please contact your {profileDataManager} administrator or {support} for help."
+          defaultMessage="Cài đặt tài khoản của bạn được quản lý bởi {managerTitle}. Nếu tên trên giấy tờ tùy thân của bạn không khớp với tên trên tài khoản, vui lòng liên hệ với quản trị viên {profileDataManager} hoặc {support} để được trợ giúp."
           description="Alert message informing the user their account data is managed by a third party."
           values={{
             managerTitle: <strong>{profileDataManager}</strong>,
@@ -124,9 +124,9 @@ const SummaryPanel = (props) => {
       <FormattedMessage
         id="idv.submission.alert.error"
         defaultMessage={`
-          We encountered a technical error while trying to submit ID verification.
-          This might be a temporary issue, so please try again in a few minutes.
-          If the problem persists, please go to {support_link} for help.
+          Chúng tôi gặp lỗi kỹ thuật trong quá trình xác minh danh tính.
+          Đây có thể là sự cố tạm thời, vui lòng thử lại sau vài phút.
+          Nếu sự cố vẫn tiếp diễn, vui lòng truy cập {support_link} để được trợ giúp.
         `}
         values={{
           support_link: (
@@ -210,7 +210,7 @@ const SummaryPanel = (props) => {
             type="text"
             disabled
             value={nameToBeUsed}
-            onChange={() => {}}
+            onChange={() => { }}
             aria-describedby={profileDataManager ? 'profile-manager-warning' : null}
           />
           {!profileDataManager && (
@@ -221,7 +221,7 @@ const SummaryPanel = (props) => {
             >
               <FormattedMessage
                 id="id.verification.account.name.edit"
-                defaultMessage="Edit {sr}"
+                defaultMessage="Chỉnh sửa {sr}"
                 description="Button to edit name, with clarifying information for screen readers."
                 values={{
                   sr: <span className="sr-only">Name</span>,

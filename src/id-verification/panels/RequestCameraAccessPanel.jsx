@@ -64,7 +64,7 @@ const RequestCameraAccessPanel = (props) => {
           <p>
             <FormattedMessage
               id="id.verification.request.camera.access.instructions"
-              defaultMessage="In order to take a photo using your webcam, you may receive a browser prompt for access to your camera. {clickAllow}"
+              defaultMessage="Để chụp ảnh bằng webcam, trình duyệt có thể hiển thị thông báo yêu cầu quyền truy cập vào camera. {clickAllow}"
               description="Instructions to enable camera access."
               values={{
                 clickAllow: <strong>{props.intl.formatMessage(messages['id.verification.camera.access.click.allow'])}</strong>,
