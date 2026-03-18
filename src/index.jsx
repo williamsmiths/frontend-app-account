@@ -21,6 +21,7 @@ import messages from './i18n';
 
 import './index.scss';
 import Head from './head/Head';
+import CustomFooter from './CustomFooter';
 
 const rootNode = createRoot(document.getElementById('root'));
 subscribe(APP_READY, () => {
@@ -35,7 +36,7 @@ subscribe(APP_READY, () => {
               <main className="flex-grow-1" id="main">
                 <Outlet />
               </main>
-              <FooterSlot />
+              <CustomFooter />
             </div>
         )}
           >
